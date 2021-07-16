@@ -32,22 +32,34 @@ We can see that the input attributes have a mixture of units.
 
 Correlation matrix :
 ![image](https://user-images.githubusercontent.com/65977290/125964062-834c44da-9200-4d34-8b33-07cca467cb8f.png)
+
 GGplot between different features:
+
 ![image](https://user-images.githubusercontent.com/65977290/125964125-274243fc-2a62-4759-845c-c8e4684aebca.png)
+
+
+
 ![image](https://user-images.githubusercontent.com/65977290/125964155-a2502c72-8eaf-436a-b9d7-79f66b1b4fe7.png)
 
 # Predict the accuracy of Random forest, Linear Regression and XGBoost classification model. 
 
    Model           R-squared Score
+   
    Random Forest   85.952494
+   
+   
    XGBoost         84.602124
+   
    Linear Regression 70.876693
    
 # Compare the multiple models using RMSE
   
   Model              Root Mean Sqaure Error(RMSE)
+  
   Random Forest      1.1437549740560535
+  
   Linear Regression  4.5624434924610995
+  
   XGBoost            0.01156838856617691
 
    
